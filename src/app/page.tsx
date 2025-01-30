@@ -24,7 +24,7 @@ export default function Page() {
                   heading="Any browser, any device."
                   description="Identify returning web and mobile app visitors on all
         browsers, iOS, and Android, with exceptional accuracy."
-                  logo={<Search color="orange" size={16} />}
+                  logo={<Search color="#F35B22" size={16} />}
                 />
               </ResizablePanel>
               <ResizableHandle />
@@ -38,7 +38,7 @@ export default function Page() {
                   heading="Delight your trusted users."
                   description="Personalize user experience and reduce 2FA and OTP
               requirements by identifying logged-out users."
-                  logo={<BadgePercentIcon color="orange" size={20} />}
+                  logo={<BadgePercentIcon color="#F35B22" size={20} />}
                 />{" "}
               </ResizablePanel>
             </ResizablePanelGroup>

@@ -8,7 +8,7 @@ export default function Main() {
         <h1 className="text-xs text-gray-400 font-mono max-w-fit px-2 py-1 border border-gray-300 rounded-sm">
           Why platform
         </h1>
-        <h1 className=" font-medium text-4xl max-w-md">
+        <h1 className=" font-medium text-4xl max-w-md leading-[44px]">
           The {"internet's"} most{" "}
           <span className="text-[#FF5E24]">accurate</span> visitor identifier
         </h1>

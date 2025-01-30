@@ -9,8 +9,8 @@ export default function Info({
   logo: any;
 }) {
   return (
-    <div className="h-full w-full rounded-lg bg-white py-6 px-8 flex justify-center items-center">
-      <div className="flex flex-row gap-4">
+    <div className="h-full w-full rounded-xl bg-white py-6 px-8 flex justify-center items-center">
+      <div className="flex flex-row gap-3">
         <div className="h-7 w-7 flex items-center justify-center px-1 py-1 border border-gray-300 rounded-lg bg-white shadow-xs">
           {logo}
         </div>

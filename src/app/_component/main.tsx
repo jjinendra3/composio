@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Main() {
   return (
-    <div className="flex-grow w-full rounded-xl bg-white flex flex-col justify-between gap-2 shadow-xl">
+    <div className="h-full w-full rounded-xl bg-white flex flex-col justify-between gap-2 shadow-xl">
       <div className="w-full p-8 gap-4 flex flex-col">
         <h1 className="text-xs text-gray-400 font-mono max-w-fit px-2 py-1 border border-gray-300 rounded-sm">
           Why platform

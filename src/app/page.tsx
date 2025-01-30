@@ -1,8 +1,4 @@
-import {
-  ResizableHandle,
-  ResizablePanel,
-  ResizablePanelGroup,
-} from "@/components/ui/resizable";
+import { ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
 import Main from "./_component/main";
 import RightOne from "./_component/rightone";
 import RightTwo from "./_component/righttwo";
@@ -12,21 +8,21 @@ export default function Page() {
     <div className="min-h-screen  bg-black p-2">
       <ResizablePanelGroup
         direction="horizontal"
-        className="h-screen w-full bg-green-200"
+        className="h-screen w-full gap-3"
       >
         <ResizablePanel defaultSize={60}>
           <Main />
         </ResizablePanel>
-        <ResizableHandle />
+
         <ResizablePanel defaultSize={40}>
           <ResizablePanelGroup direction="vertical" className="gap-2">
-            <ResizablePanel defaultSize={25}>
+            <ResizablePanel defaultSize={20}>
               <RightOne />
             </ResizablePanel>
-            <ResizablePanel defaultSize={50}>
+            <ResizablePanel defaultSize={60}>
               <RightTwo />
             </ResizablePanel>
-            <ResizablePanel defaultSize={25}>
+            <ResizablePanel defaultSize={20}>
               <RightThree />
             </ResizablePanel>
           </ResizablePanelGroup>

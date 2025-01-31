@@ -17,7 +17,7 @@ export default function Info({
 
         <div className="flex flex-col gap-2">
           <h1 className="font-medium text-base ">{heading}</h1>
-          <h3 className="font-normal  text-sm text-[#484946] max-w-md">
+          <h3 className="font-normal  text-sm text-[#484946]">
             {description}
           </h3>
         </div>

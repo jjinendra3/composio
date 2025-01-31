@@ -3,7 +3,7 @@ import Image from "next/image";
 import Info from "./info";
 export default function RightTwo() {
   return (
-    <div className="h-full w-full rounded-xl bg-white flex flex-col">
+      <div className="h-full w-full rounded-xl bg-white flex flex-col">
       <div className="w-full h-52">
         <Image
           src={"/dotted.svg"}
